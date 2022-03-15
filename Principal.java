@@ -16,14 +16,14 @@ public class Principal {
 
         System.out.println("Segunda figura: "+t.getNomeFigura());
         System.out.println("Digite o lado A para o Triangulo: ");
-        System.out.println("Digite o lado B para o Triangulo: ");
-        System.out.println("Digite o lado C para o Triangulo: ");
-        System.out.println("Digite um dos número para ser a base do Triangulo: ");
-        System.out.println("Digite um dos número para ser a altura do Triangulo: ");
         t.setLadoA(sc.nextDouble());
+        System.out.println("Digite o lado B para o Triangulo: ");
         t.setLadoB(sc.nextDouble());
+        System.out.println("Digite o lado C para o Triangulo: ");
         t.setLadoC(sc.nextDouble());
+        System.out.println("Digite um dos número para ser a base do Triangulo: ");
         t.setBase(sc.nextDouble());
+        System.out.println("Digite um dos número para ser a altura do Triangulo: ");
         t.setAltura(sc.nextDouble());
         System.out.println("Lados do Triangulo: lado A "+t.getLadoA()+" ,lado B "+t.getLadoB()+" e lado C "+t.getLadoC());
         System.out.println("Área do triangulo: "+t.getArea());
